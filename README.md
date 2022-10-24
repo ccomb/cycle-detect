@@ -19,8 +19,10 @@ intCycle n = if n > 5 then Just 1 else if n == 0 then Nothing else Just (n + 1)
 
 We can check that the graph is a cycle if we start from 2:
 
+```
 > isCycle intCycle 2
 True : Bool
 
 > isCycle intCycle -5
 False : Bool
+```
