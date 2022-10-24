@@ -7,3 +7,20 @@ in the graph? You can answer this question by using the Floyd cycle detection
 algorithm.
 
 
+Example usage:
+
+Here is a function that takes an integer and gives the next integer. The
+cycle loops for positive numbers and not for negative ones.
+
+```elm
+intCycle : Int -> Maybe Int
+intCycle n = if n > 5 then Just 1 else if n == 0 then Nothing else Just (n + 1)
+```
+
+We can check that the graph is a cycle if we start from 2:
+
+> isCycle intCycle 2
+True : Bool
+
+> isCycle intCycle -5
+False : Bool
