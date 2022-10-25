@@ -9,7 +9,7 @@ module Graph exposing
 
 # Cycle detection
 
-@docs isCycle
+@docs isCycle, endOrCycle
 
 -}
 
