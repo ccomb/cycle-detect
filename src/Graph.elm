@@ -11,6 +11,30 @@ module Graph exposing (isCycle)
 -}
 
 
+cycle : (a -> Maybe a) -> Maybe a -> Maybe a -> Bool
+cycle next slow fast =
+    let
+        nextSlow =
+            slow |> Maybe.andThen next
+
+        nextFast =
+            fast |> Maybe.andThen next |> Maybe.andThen next
+    in
+    if nextSlow == nextFast then
+        True
+
+    else if nextFast == Nothing then
+        False
+
+    else
+        cycle next nextSlow nextFast
+
+
+step : (a -> Maybe a) -> ( Maybe a, Maybe a ) -> ( Maybe a, Maybe a )
+step next ( slow, fast ) =
+    ( slow |> Maybe.andThen next, fast |> Maybe.andThen next |> Maybe.andThen next )
+
+
 {-| Takes a function that gives the possible next element in the graph and the first element,
 returns True if the graph is a cycle
 
@@ -41,23 +65,4 @@ We can check that the graph is a cycle if we start from above 0:
 -}
 isCycle : (a -> Maybe a) -> a -> Bool
 isCycle f x =
-    let
-        cycle : (a -> Maybe a) -> Maybe a -> Maybe a -> Bool
-        cycle next slow fast =
-            let
-                nextSlow =
-                    slow |> Maybe.andThen next
-
-                nextFast =
-                    fast |> Maybe.andThen next |> Maybe.andThen next
-            in
-            if nextSlow == nextFast then
-                True
-
-            else if nextFast == Nothing then
-                False
-
-            else
-                cycle next nextSlow nextFast
-    in
     cycle f (Just x) (Just x)
