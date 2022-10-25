@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.3273709"
-     inkscape:cx="217.34693"
-     inkscape:cy="289.29366"
+     inkscape:cx="236.18116"
+     inkscape:cy="433.94051"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -84,9 +84,9 @@
        style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.193;stop-color:#000000;marker-start:url(#marker14717);stroke-miterlimit:4;stroke-dasharray:none;marker-mid:url(#marker14717);paint-order:normal"
        d="m 15.132302,59.899895 c 6.739632,2.35e-4 13.439731,6.84e-4 20.089573,0.0013 6.649842,6.01e-4 13.249428,0.0014 19.788036,0.0022 6.538608,8.46e-4 13.016237,0.0018 19.422166,0.0028 6.40593,9.72e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.620481 16.554808,6.857224 4.23674,4.236744 6.85722,10.089751 6.85722,16.554805 0,6.465052 -2.62048,12.318059 -6.85722,16.554802 -4.23675,4.236744 -10.089754,6.857224 -16.554808,6.857224 -6.465053,0 -12.318061,-2.62048 -16.554805,-6.857223 -4.236744,-4.236743 -6.857225,-10.08975 -6.857226,-16.554803 -10e-7,-6.465054 2.62048,-12.318061 6.857224,-16.554805 4.236745,-4.236744 10.089753,-6.857224 16.554807,-6.857224"
        sodipodi:nodetypes="cssscsssssssc"
-       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/path4651.png"
-       inkscape:export-xdpi="79.56884"
-       inkscape:export-ydpi="79.56884" />
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/entry.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822" />
     <path
        id="path13633"
        style="fill:#c5e8f7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.47831px"
@@ -96,8 +96,72 @@
        style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.493;stop-color:#000000;stroke-miterlimit:4;stroke-dasharray:none;marker-mid:url(#Arrow1Mend);paint-order:normal;marker-start:url(#Arrow1Mend)"
        d="m 15.132302,59.899895 c 6.739632,2.35e-4 13.439731,6.84e-4 20.089573,0.0013 6.649842,6.01e-4 13.249428,0.0014 19.788036,0.0022 6.538608,8.46e-4 13.016237,0.0018 19.422166,0.0028 6.40593,9.72e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.620481 16.554808,6.857224 4.23674,4.236744 6.85722,10.089751 6.85722,16.554805 0,6.465052 -2.62048,12.318059 -6.85722,16.554802 -4.23675,4.236744 -10.089754,6.857224 -16.554808,6.857224 -6.465053,0 -12.318061,-2.62048 -16.554805,-6.857223 -4.236744,-4.236743 -6.857225,-10.08975 -6.857226,-16.554803 -10e-7,-6.465054 2.62048,-12.318061 6.857224,-16.554805 4.236745,-4.236744 10.089753,-6.857224 16.554807,-6.857224"
        sodipodi:nodetypes="cssscsssssssc"
-       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/path4651.png"
-       inkscape:export-xdpi="79.56884"
-       inkscape:export-ydpi="79.56884" />
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/entry.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822" />
+    <path
+       id="path848"
+       style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.193;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker14717);marker-mid:url(#marker14717);marker-end:url(#marker14717);paint-order:normal;stop-color:#000000"
+       d="m 15.132302,120.22505 c 6.739632,2.3e-4 13.439731,6.8e-4 20.089573,0.001 6.649842,6e-4 13.249428,0.001 19.788036,0.002 6.538608,8.4e-4 13.016237,0.002 19.422166,0.003 6.40593,9.7e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.62049 16.554808,6.85726 4.23674,4.23677 6.85722,10.08981 6.85722,16.5549 0,6.46509 -2.62048,12.31813 -6.85722,16.55489"
+       sodipodi:nodetypes="cssscssc"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/output.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822" />
+    <path
+       id="path850"
+       style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.493;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Mend);marker-mid:url(#Arrow1Mend);paint-order:normal;stop-color:#000000;marker-end:url(#Arrow1Mend)"
+       d="m 15.132302,120.22505 c 6.739632,2.3e-4 13.439731,6.8e-4 20.089573,0.001 6.649842,6e-4 13.249428,0.001 19.788036,0.002 6.538608,8.4e-4 13.016237,0.002 19.422166,0.003 6.40593,9.7e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.62049 16.554808,6.85726 4.23674,4.23677 6.85722,10.08981 6.85722,16.5549 0,6.46509 -2.62048,12.31813 -6.85722,16.55489"
+       sodipodi:nodetypes="cssscssc"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/output.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822" />
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:0.0559203px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-anchor:middle;overflow:visible;opacity:0.9;fill:#010101;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="68.948128"
+       y="45.917274"
+       id="text2680"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/entry.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822"><tspan
+         sodipodi:role="line"
+         id="tspan2678"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke:none;stroke-width:0.264583px"
+         x="68.948128"
+         y="45.917274">Cycle entry</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 81.182133,46.573655 8.942543,8.0043"
+       id="path18126"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/entry.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;line-height:0.0559203px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;letter-spacing:0px;word-spacing:0px;text-anchor:middle;overflow:visible;opacity:0.9;fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.962502"
+       y="148.36607"
+       id="text18917"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/output.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822"><tspan
+         sodipodi:role="line"
+         id="tspan18915"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.70417px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
+         x="77.962502"
+         y="148.36607">Graph output</tspan></text>
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend);fill-opacity:0"
+       d="m 91.084728,150.86159 12.514892,5.0494"
+       id="path18919"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/output.png"
+       inkscape:export-xdpi="90.935822"
+       inkscape:export-ydpi="90.935822" />
   </g>
 </svg>

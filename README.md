@@ -7,6 +7,10 @@ in the graph? You can answer this question by using the Floyd cycle detection
 algorithm.
 
 Launch a turtle and a hare on the same path. The hare runs twice as fast as the
-turtle. If the two cross again, then there is a loop in the path.
+turtle. If the two cross again, then there is a loop in the path:
 
-![cycle](drawing.png)
+![cycle](entry.png)
+
+If there is no loop, you can expect there is an output in the graph:
+
+![cycle](output.png)
