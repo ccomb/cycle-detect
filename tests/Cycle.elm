@@ -1,7 +1,7 @@
 module Cycle exposing (..)
 
 import Expect exposing (Expectation)
-import Fuzz exposing (Fuzzer, int, list, string)
+import Fuzz exposing (Fuzzer, int, intRange, list, string)
 import Graph
 import Test exposing (..)
 
@@ -21,6 +21,6 @@ intCycle n =
 suite : Test
 suite =
     describe "basic Cycle detection"
-        [ test "is a cycle" <| \_ -> Graph.isCycle intCycle 3 |> Expect.equal True
-        , test "is not a cycle" <| \_ -> Graph.isCycle intCycle -3 |> Expect.equal False
+        [ fuzz (intRange 0 10) "a cycle" <| \n -> Expect.equal True <| Graph.isCycle intCycle n
+        , fuzz (intRange -10 -1) "not a cycle" <| \n -> Expect.equal False <| Graph.isCycle intCycle n
         ]

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   sodipodi:docname="drawing.svg"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.3273709"
+     inkscape:cx="217.34693"
+     inkscape:cy="289.29366"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path14969" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path14963" />
+    </marker>
+    <marker
+       markerWidth="65.562248"
+       markerHeight="38.305595"
+       refX="32.781124"
+       refY="19.152797"
+       orient="auto"
+       id="marker14717">
+      <path
+         id="rect6454"
+         style="fill:#c5e8f7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.80779px"
+         d="m 0,0 h 65.562248 v 38.305595 h -65.562248 z" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path4651"
+       style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.193;stop-color:#000000;marker-start:url(#marker14717);stroke-miterlimit:4;stroke-dasharray:none;marker-mid:url(#marker14717);paint-order:normal"
+       d="m 15.132302,59.899895 c 6.739632,2.35e-4 13.439731,6.84e-4 20.089573,0.0013 6.649842,6.01e-4 13.249428,0.0014 19.788036,0.0022 6.538608,8.46e-4 13.016237,0.0018 19.422166,0.0028 6.40593,9.72e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.620481 16.554808,6.857224 4.23674,4.236744 6.85722,10.089751 6.85722,16.554805 0,6.465052 -2.62048,12.318059 -6.85722,16.554802 -4.23675,4.236744 -10.089754,6.857224 -16.554808,6.857224 -6.465053,0 -12.318061,-2.62048 -16.554805,-6.857223 -4.236744,-4.236743 -6.857225,-10.08975 -6.857226,-16.554803 -10e-7,-6.465054 2.62048,-12.318061 6.857224,-16.554805 4.236745,-4.236744 10.089753,-6.857224 16.554807,-6.857224"
+       sodipodi:nodetypes="cssscsssssssc"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/path4651.png"
+       inkscape:export-xdpi="79.56884"
+       inkscape:export-ydpi="79.56884" />
+    <path
+       id="path13633"
+       style="fill:#c5e8f7;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.47831px"
+       d="m 20.580895,19.324187 h 17.346678 v 10.135022 h -17.346678 z" />
+    <path
+       id="path14958"
+       style="opacity:0.9;fill:none;stroke:#000000;stroke-width:0.493;stop-color:#000000;stroke-miterlimit:4;stroke-dasharray:none;marker-mid:url(#Arrow1Mend);paint-order:normal;marker-start:url(#Arrow1Mend)"
+       d="m 15.132302,59.899895 c 6.739632,2.35e-4 13.439731,6.84e-4 20.089573,0.0013 6.649842,6.01e-4 13.249428,0.0014 19.788036,0.0022 6.538608,8.46e-4 13.016237,0.0018 19.422166,0.0028 6.40593,9.72e-4 12.740158,0.002 18.991965,0.003 6.465054,0 12.318058,2.620481 16.554808,6.857224 4.23674,4.236744 6.85722,10.089751 6.85722,16.554805 0,6.465052 -2.62048,12.318059 -6.85722,16.554802 -4.23675,4.236744 -10.089754,6.857224 -16.554808,6.857224 -6.465053,0 -12.318061,-2.62048 -16.554805,-6.857223 -4.236744,-4.236743 -6.857225,-10.08975 -6.857226,-16.554803 -10e-7,-6.465054 2.62048,-12.318061 6.857224,-16.554805 4.236745,-4.236744 10.089753,-6.857224 16.554807,-6.857224"
+       sodipodi:nodetypes="cssscsssssssc"
+       inkscape:export-filename="/home/dadafkas/projets/Modelyz/cycle-detect/src/path4651.png"
+       inkscape:export-xdpi="79.56884"
+       inkscape:export-ydpi="79.56884" />
+  </g>
+</svg>

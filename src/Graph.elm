@@ -13,6 +13,31 @@ module Graph exposing (isCycle)
 
 {-| Takes a function that gives the possible next element in the graph and the first element,
 returns True if the graph is a cycle
+
+Example usage:
+
+Here is a function that takes an integer and gives the next integer. The
+cycle loops for positive numbers and not for negative ones.
+
+    intCycle : Int -> Maybe Int
+    intCycle n =
+        if n > 5 then
+            Just 1
+
+        else if n == 0 then
+            Nothing
+
+        else
+            Just (n + 1)
+
+We can check that the graph is a cycle if we start from above 0:
+
+    isCycle intCycle 2
+    --> True
+
+    isCycle intCycle -5
+    --> False
+
 -}
 isCycle : (a -> Maybe a) -> a -> Bool
 isCycle f x =
