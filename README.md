@@ -9,8 +9,8 @@ algorithm.
 Launch a turtle and a hare on the same path. The hare runs twice as fast as the
 turtle. If the two cross again, then there is a loop in the path:
 
-![cycle](entry.png)
+![entry](https://github.com/ccomb/cycle-detect/raw/1.1.1/entry.png)
 
 If there is no loop, you can expect there is an output in the graph:
 
-![cycle](output.png)
+![output](https://github.com/ccomb/cycle-detect/raw/1.1.1/output.png)
