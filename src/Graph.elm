@@ -1,7 +1,4 @@
-module Graph exposing
-    ( isCycle
-    , endOrCycle
-    )
+module Graph exposing (isCycle, endOrCycle)
 
 {-| Your graph is defined by a type `a` and a function that give the next element in the graph, if any.
 `isCycle` tells you wether the graph is a cycle.
@@ -19,13 +16,12 @@ returns True if the graph is a cycle
 
 Example usage:
 
-Here is a function that takes an integer and gives the next integer. The
-cycle loops for numbers above 5 and not for negative ones.
+Here is a function that takes an integer and gives the next integer. The cycle
+loops for numbers above 5 and not for negative ones. We can see that the
+graph is a cycle if we start from above 0:
 
     next : Int -> Maybe Int
     next n = if n > 10 then Just 5 else if n == 0 then Nothing else Just (n + 1)
-
-We can check that the graph is a cycle if we start from above 0:
 
     isCycle next 2
     --> True
@@ -66,18 +62,15 @@ and returns:
 
 Example usage:
 
-Here is a function that takes an integer and gives the next integer. The
-cycle loops for numbers above 5 and not for negative ones.
+Here is a function that takes an integer and gives the next integer. The cycle
+loops for numbers above 5 and not for negative ones. The output of the graph
+is at number 0, and there is a cycle whose entry point is at number 5:
 
     next : Int -> Maybe Int
     next n = if n > 10 then Just 5 else if n == 0 then Nothing else Just (n + 1)
 
-The output of the graph is at number 0:
-
     endOrCycle next -5
     --> Ok 0
-
-There is a cycle, we can find the entry point of the cycle:
 
     endOrCycle next 2
     --> Err 5
